@@ -1,5 +1,6 @@
 #include "magic/magic_teleporter_list.h"
 
+#include "../map/map.h"
 #include "avatar.h"
 #include "bodypart.h"
 #include "calendar.h"
@@ -12,7 +13,6 @@
 #include "game.h"
 #include "json.h"
 #include "line.h"
-#include "map.h"
 #include "map_iterator.h"
 #include "messages.h"
 #include "output.h"

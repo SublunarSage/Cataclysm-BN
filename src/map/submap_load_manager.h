@@ -1,6 +1,12 @@
 #pragma once
 
+#include "coordinates.h"
+#include "mapgen_functions.h"
+#include "point.h"
+#include "type_id.h"
+
 #include <cstdint>
+#include <future>
 #include <list>
 #include <map>
 #include <memory>
@@ -12,13 +18,6 @@
 #include <unordered_set>
 #include <utility>
 #include <vector>
-
-#include <future>
-
-#include "coordinates.h"
-#include "mapgen_functions.h"
-#include "point.h"
-#include "type_id.h"
 
 class mapbuffer;
 

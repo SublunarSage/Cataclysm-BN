@@ -1,9 +1,9 @@
 #pragma once
 
-#include <vector>
-
 #include "coordinates.h"
 #include "visitable.h"
+
+#include <vector>
 
 class map_cursor : public location_visitable<map_cursor>
 {

@@ -1,5 +1,20 @@
 #include "submap_load_manager.h"
 
+#include "cached_options.h"
+#include "calendar.h"
+#include "cata_cartesian_product.h"
+#include "clzones.h"
+#include "game_constants.h"
+#include "mapbuffer.h"
+#include "mapbuffer_registry.h"
+#include "mapgen_async.h"
+#include "mapgen_functions.h"
+#include "omdata.h"
+#include "overmapbuffer.h"
+#include "point.h"
+#include "profile.h"
+#include "thread_pool.h"
+
 #include <algorithm>
 #include <array>
 #include <cassert>
@@ -13,21 +28,6 @@
 #include <unordered_set>
 #include <utility>
 #include <vector>
-
-#include "calendar.h"
-#include "cata_cartesian_product.h"
-#include "cached_options.h"
-#include "game_constants.h"
-#include "mapbuffer.h"
-#include "clzones.h"
-#include "mapgen_async.h"
-#include "mapgen_functions.h"
-#include "mapbuffer_registry.h"
-#include "omdata.h"
-#include "overmapbuffer.h"
-#include "point.h"
-#include "profile.h"
-#include "thread_pool.h"
 
 namespace
 {

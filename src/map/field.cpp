@@ -1,10 +1,10 @@
 #include "field.h"
 
-#include <algorithm>
-#include <utility>
-
 #include "calendar.h"
 #include "int_id.h"
+
+#include <algorithm>
+#include <utility>
 
 int field_entry::move_cost() const
 {

@@ -1,9 +1,9 @@
 #pragma once
 
+#include "translations.h"
+
 #include <string>
 #include <vector>
-
-#include "translations.h"
 
 class JsonObject;
 

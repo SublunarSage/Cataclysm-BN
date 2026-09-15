@@ -1,11 +1,11 @@
 #pragma once
 
-#include <vector>
-
 #include "coordinates.h"
 #include "item.h"
 #include "type_id.h"
 #include "units.h"
+
+#include <vector>
 
 class submap;
 class mapbuffer;

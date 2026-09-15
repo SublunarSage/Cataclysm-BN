@@ -1,7 +1,5 @@
 #include "field_type.h"
 
-#include <cstdlib>
-
 #include "assign.h"
 #include "bodypart.h"
 #include "debug.h"
@@ -12,6 +10,8 @@
 #include "json.h"
 #include "string_id.h"
 #include "type_id_implement.h"
+
+#include <cstdlib>
 
 namespace io
 {

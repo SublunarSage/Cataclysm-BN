@@ -1,18 +1,11 @@
 #pragma once
 
-#include <array>
-#include <bitset>
-#include <cstddef>
-#include <optional>
-#include <set>
-#include <string>
-#include <vector>
-
 #include "active_tile_data.h"
 #include "calendar.h"
 #include "catalua_type_operators.h"
 #include "color.h"
 #include "coordinates.h"
+#include "data_vars.h"
 #include "hsv_color.h"
 #include "numeric_interval.h"
 #include "poly_serialized.h"
@@ -20,7 +13,14 @@
 #include "type_id.h"
 #include "units.h"
 #include "value_ptr.h"
-#include "data_vars.h"
+
+#include <array>
+#include <bitset>
+#include <cstddef>
+#include <optional>
+#include <set>
+#include <string>
+#include <vector>
 
 struct ter_t;
 using ter_str_id = string_id<ter_t>;

@@ -3,7 +3,7 @@
 #include "coordinates.h"
 #include "type_id.h"
 
-template<typename T>
+template <typename T>
 class detached_ptr;
 class item;
 

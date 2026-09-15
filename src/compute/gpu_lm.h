@@ -1,9 +1,9 @@
 #pragma once
 #if defined(CATA_SDL)
 
+#    include "../map/map.h"
 #    include "coordinates.h"
 #    include "game_constants.h"
-#    include "map.h"
 
 #    include <SDL3/SDL_gpu.h>
 #    include <cstdint>

@@ -1,14 +1,14 @@
 #pragma once
 
-#include <map>
-#include <string>
-#include <vector>
-
 #include "calendar.h"
 #include "color.h"
 #include "enums.h"
 #include "field_type.h"
 #include "type_id.h"
+
+#include <map>
+#include <string>
+#include <vector>
 
 /**
  * An active or passive effect existing on a tile.

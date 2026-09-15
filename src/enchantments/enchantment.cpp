@@ -1,5 +1,6 @@
 #include "enchantment.h"
 
+#include "../map/map.h"
 #include "bodypart.h"
 #include "calendar.h"
 #include "character.h"
@@ -14,7 +15,6 @@
 #include "enums.h"
 #include "generic_factory.h"
 #include "json.h"
-#include "map.h"
 #include "mutation.h"
 #include "point.h"
 #include "rng.h"

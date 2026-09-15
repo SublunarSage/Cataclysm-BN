@@ -1,29 +1,29 @@
 #pragma once
 
-#include <algorithm>
-#include <cstddef>
-#include <cstdint>
-#include <memory>
-#include <optional>
-#include <vector>
-#include <string>
-#include <iterator>
-#include <map>
-
 #include "active_item_cache.h"
 #include "active_tile_data.h"
 #include "calendar.h"
 #include "computer.h"
 #include "construction_partial.h"
-#include "field.h"
 #include "game_constants.h"
 #include "item.h"
-#include "legacy_pathfinding.h"
-#include "type_id.h"
 #include "monster.h"
 #include "point.h"
 #include "poly_serialized.h"
 #include "sounds.h"
+#include "type_id.h"
+#include "field.h"
+#include "legacy_pathfinding.h"
+
+#include <algorithm>
+#include <cstddef>
+#include <cstdint>
+#include <iterator>
+#include <map>
+#include <memory>
+#include <optional>
+#include <string>
+#include <vector>
 
 class JsonIn;
 class JsonOut;

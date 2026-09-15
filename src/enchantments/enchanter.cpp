@@ -1,5 +1,6 @@
 #include "enchanter.h"
 
+#include "../map/mapdata.h"
 #include "activity_actor_definitions.h"
 #include "catalua_hooks.h"
 #include "catalua_impl.h"
@@ -17,7 +18,6 @@
 #include "item.h"
 #include "itype.h"
 #include "json.h"
-#include "mapdata.h"
 #include "messages.h"
 #include "output.h"
 #include "player.h"

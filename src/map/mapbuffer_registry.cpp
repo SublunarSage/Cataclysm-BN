@@ -1,10 +1,10 @@
 #include "mapbuffer_registry.h"
 
-#include <vector>
-
 #include "mapbuffer.h"
 #include "overmapbuffer_registry.h" // g_active_dimension_id
 #include "thread_pool.h"
+
+#include <vector>
 
 mapbuffer_registry MAPBUFFER_REGISTRY;
 

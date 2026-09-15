@@ -1,5 +1,6 @@
 #include "magic/magic.h"
 
+#include "../map/map.h"
 #include "avatar.h"
 #include "calendar.h"
 #include "cata_utility.h"
@@ -17,7 +18,6 @@
 #include "enums.h"
 #include "event.h"
 #include "faction.h"
-#include "field.h"
 #include "flag.h"
 #include "game.h"
 #include "generic_factory.h"
@@ -26,7 +26,7 @@
 #include "item.h"
 #include "json.h"
 #include "line.h"
-#include "map.h"
+#include "map/field.h"
 #include "messages.h"
 #include "monster.h"
 #include "mtype.h"

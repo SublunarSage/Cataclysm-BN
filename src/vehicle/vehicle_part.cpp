@@ -1,5 +1,6 @@
 #include "vehicle_part.h" // IWYU pragma: associated
 
+#include "../map/map.h"
 #include "avatar.h"
 #include "color.h"
 #include "debug.h"
@@ -11,7 +12,6 @@
 #include "item_contents.h"
 #include "itype.h"
 #include "locations.h"
-#include "map.h"
 #include "messages.h"
 #include "npc.h"
 #include "string_formatter.h"

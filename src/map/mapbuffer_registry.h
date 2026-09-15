@@ -1,13 +1,13 @@
 #pragma once
 
+#include "type_id.h"
+
 #include <cstddef>
 #include <functional>
 #include <map>
 #include <memory>
 #include <string>
 #include <vector>
-
-#include "type_id.h"
 
 class mapbuffer;
 

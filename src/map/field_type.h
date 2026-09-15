@@ -1,16 +1,5 @@
 #pragma once
 
-#include <algorithm>
-#include <cstddef>
-#include <cstdint>
-#include <optional>
-#include <set>
-#include <string>
-#include <tuple>
-#include <unordered_map>
-#include <utility>
-#include <vector>
-
 #include "bodypart.h"
 #include "calendar.h"
 #include "catacharset.h"
@@ -22,6 +11,17 @@
 #include "mapdata.h"
 #include "translations.h"
 #include "type_id.h"
+
+#include <algorithm>
+#include <cstddef>
+#include <cstdint>
+#include <optional>
+#include <set>
+#include <string>
+#include <tuple>
+#include <unordered_map>
+#include <utility>
+#include <vector>
 
 class JsonObject;
 template <typename E> struct enum_traits;

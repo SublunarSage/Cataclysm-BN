@@ -1,16 +1,16 @@
 #include "map_selector.h"
 
-#include <algorithm>
-#include <functional>
-#include <memory>
-#include <optional>
-#include <vector>
-
 #include "game.h"
 #include "game_constants.h"
 #include "map.h"
 #include "map_iterator.h"
 #include "rng.h"
+
+#include <algorithm>
+#include <functional>
+#include <memory>
+#include <optional>
+#include <vector>
 
 map_selector::map_selector( const tripoint_bub_ms &pos, int radius, bool accessible )
 {

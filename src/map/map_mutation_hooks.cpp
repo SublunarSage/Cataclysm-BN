@@ -1,19 +1,19 @@
 #include "map_mutation_hooks.h"
 
-#include <utility>
-
 #include "avatar.h"
 #include "creature.h"
-#include "field_type.h"
 #include "flag.h"
 #include "game.h"
-#include "iuse_actor.h"
 #include "item.h"
 #include "itype.h"
+#include "iuse_actor.h"
+#include "field_type.h"
 #include "map.h"
 #include "mapdata.h"
 #include "messages.h"
 #include "translations.h"
+
+#include <utility>
 
 namespace
 {

@@ -56,7 +56,7 @@
 #include "legacy_pathfinding.h"
 #include "lightmap.h"
 #include "line.h"
-#include "map/utils/map_functions.h"
+#include "utils/map_functions.h"
 #include "map_feature_descriptions.h"
 #include "map_iterator.h"
 #include "map_memory.h"
@@ -127,9 +127,9 @@
 #include <vector>
 
 #if defined( CATA_SDL )
-#include "compute/compute_backend.h"
-#include "compute/gpu_lm.h"
-#include "compute/gpu_platform.h"
+#    include "compute/compute_backend.h"
+#    include "compute/gpu_lm.h"
+#    include "compute/gpu_platform.h"
 #endif
 
 struct ammo_effect;

@@ -1,5 +1,7 @@
 #include "vehicle_move.h" // IWYU pragma: associated
 
+#include "../map/map.h"
+#include "../map/mapdata.h"
 #include "action_time_scale.h"
 #include "avatar.h"
 #include "bodypart.h"
@@ -12,9 +14,7 @@
 #include "int_id.h"
 #include "item.h"
 #include "itype.h"
-#include "map.h"
 #include "map_iterator.h"
-#include "mapdata.h"
 #include "material.h"
 #include "math_defines.h"
 #include "messages.h"

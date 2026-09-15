@@ -1,10 +1,10 @@
 #pragma once
 
-#include <map>
-#include <string>
-
 #include "field_type.h"
 #include "type_id.h"
+
+#include <map>
+#include <string>
 
 class JsonObject;
 

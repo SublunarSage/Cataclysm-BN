@@ -1,16 +1,16 @@
 #if defined(CATA_SDL)
 #    include "gpu_transparency.h"
 
+#    include "../map/map.h"
+#    include "../map/mapdata.h"
+#    include "../map/submap.h"
 #    include "coordinates.h"
 #    include "debug.h"
-#    include "field.h"
 #    include "gpu_platform.h"
-#    include "map.h"
-#    include "mapbuffer.h"
-#    include "mapdata.h"
+#    include "map/field.h"
+#    include "map/mapbuffer.h"
 #    include "path_info.h"
 #    include "profile.h"
-#    include "submap.h"
 
 #    include <SDL3/SDL_gpu.h>
 #    include <algorithm>

@@ -1,5 +1,5 @@
+#include "../map/mapdata.h"
 #include "item.h"
-#include "mapdata.h"
 #include "requirements.h"
 
 #include <vector>
