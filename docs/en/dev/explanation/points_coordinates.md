@@ -266,7 +266,7 @@ All of the following are implemented and available for use:
 | `project_to<S>(p)`                | `coordinates.h`          | Scale conversion, preserves origin                  |
 | `project_remain<S>(p)`            | `coordinates.h`          | Quotient + remainder decomposition                  |
 | `project_combine(coarse, fine)`   | `coordinates.h`          | Recombine quotient + remainder                      |
-| `abs_to_bub(p)` / `bub_to_abs(p)` | `map.h` (free functions) | Bubble ↔ absolute                                   |
+| `abs_to_bub(p)` / `bub_to_abs(p)` | `map/map.h` (free functions) | Bubble ↔ absolute                                   |
 | `p.reinterpret_as<T>()`           | `coordinates.h`          | Explicit type-pun during migration scaffolding only |
 | `IsCoordPoint<T>` concept         | `coordinates.h`          | Constrains templates to typed coordinates           |
 | `rl_dist(a, b)` typed overload    | `line.h`                 | Accepts any same-type `coord_point` pair            |
