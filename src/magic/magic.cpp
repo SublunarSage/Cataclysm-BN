@@ -1,6 +1,5 @@
 #include "magic/magic.h"
 
-#include "../map/map.h"
 #include "avatar.h"
 #include "calendar.h"
 #include "cata_utility.h"
@@ -27,6 +26,7 @@
 #include "json.h"
 #include "line.h"
 #include "map/field.h"
+#include "map/map.h"
 #include "messages.h"
 #include "monster.h"
 #include "mtype.h"

@@ -1,4 +1,3 @@
-#include "../map/map.h"
 #include "ammo_effect.h"
 #include "avatar.h"
 #include "avatar_action.h"
@@ -12,6 +11,7 @@
 #include "item.h"
 #include "itype.h"
 #include "map/field_type.h"
+#include "map/map.h"
 #include "messages.h"
 #include "npc.h"
 #include "player.h"

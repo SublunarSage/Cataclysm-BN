@@ -1,8 +1,8 @@
 #include "vehicle/vehicle_group.h"
 
-#include "../map/map.h"
 #include "debug.h"
 #include "json.h"
+#include "map/map.h"
 #include "mapgen_constructor.h"
 #include "memory_fast.h"
 #include "options.h"

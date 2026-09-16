@@ -1,6 +1,5 @@
 #include "veh_utils.h"
 
-#include "../map/map.h"
 #include "calendar.h"
 #include "character.h"
 #include "color.h"
@@ -11,6 +10,7 @@
 #include "inventory.h"
 #include "item.h"
 #include "locations.h"
+#include "map/map.h"
 #include "player.h"
 #include "point.h"
 #include "requirements.h"

@@ -1,10 +1,6 @@
 #if defined(CATA_SDL)
 #    include "gpu_lm.h"
 
-#    include "../map/map.h"
-#    include "../map/submap.h"
-#    include "../vehicle/vehicle_part.h"
-#    include "../vehicle/vpart_position.h"
 #    include "cached_options.h"
 #    include "calendar.h"
 #    include "character.h"
@@ -17,6 +13,8 @@
 #    include "itype.h"
 #    include "map/field.h"
 #    include "map/lightmap.h"
+#    include "map/map.h"
+#    include "map/submap.h"
 #    include "math_defines.h"
 #    include "monster.h"
 #    include "npc.h"
@@ -27,6 +25,8 @@
 #    include "vehicle/veh_type.h"
 #    include "vehicle/vehicle.h"
 #    include "vehicle/vehicle_lighting.h"
+#    include "vehicle/vehicle_part.h"
+#    include "vehicle/vpart_position.h"
 #    include "vehicle/vpart_range.h"
 
 #    include <SDL3/SDL_gpu.h>

@@ -1,6 +1,5 @@
 #include "veh_interact.h"
 
-#include "../map/map.h"
 #include "activity_handlers.h"
 #include "avatar.h"
 #include "avatar_functions.h"
@@ -20,6 +19,7 @@
 #include "item.h"
 #include "item_contents.h"
 #include "itype.h"
+#include "map/map.h"
 #include "map/map_selector.h"
 #include "messages.h"
 #include "monster.h"

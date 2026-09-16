@@ -1,6 +1,5 @@
 #include "veh_type.h"
 
-#include "../map/mapdata.h"
 #include "ammo.h"
 #include "assign.h"
 #include "calendar.h"
@@ -18,6 +17,7 @@
 #include "item_group.h"
 #include "itype.h"
 #include "json.h"
+#include "map/mapdata.h"
 #include "output.h"
 #include "player.h"
 #include "requirements.h"

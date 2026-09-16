@@ -1,7 +1,5 @@
 #include "weather.h"
 
-#include "../map/map.h"
-#include "../map/submap.h"
 #include "action_time_scale.h"
 #include "activity_time_cadence.h"
 #include "assign.h"
@@ -19,7 +17,9 @@
 #include "game_constants.h"
 #include "item.h"
 #include "item_contents.h"
+#include "map/map.h"
 #include "map/mapbuffer.h"
+#include "map/submap.h"
 #include "math_defines.h"
 #include "messages.h"
 #include "options.h"

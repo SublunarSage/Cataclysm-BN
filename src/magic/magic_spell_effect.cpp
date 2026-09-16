@@ -1,6 +1,3 @@
-#include "../map/map.h"
-#include "../vehicle/vehicle_part.h"
-#include "../vehicle/vpart_position.h"
 #include "animation.h"
 #include "avatar.h"
 #include "avatar_action.h"
@@ -25,6 +22,7 @@
 #include "magic/magic_ter_furn_transform.h"
 #include "map/field.h"
 #include "map/field_type.h"
+#include "map/map.h"
 #include "map_iterator.h"
 #include "messages.h"
 #include "monster.h"
@@ -41,6 +39,8 @@
 #include "type_id.h"
 #include "units.h"
 #include "vehicle/vehicle.h"
+#include "vehicle/vehicle_part.h"
+#include "vehicle/vpart_position.h"
 
 #include <algorithm>
 #include <array>

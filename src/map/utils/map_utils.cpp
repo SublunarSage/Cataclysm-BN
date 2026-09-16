@@ -1,7 +1,7 @@
 #include "map/utils/map_utils.h"
 
-#include "../../vehicle/vpart_position.h"
-#include "../map.h"
+#include "vehicle/vpart_position.h"
+#include "map/map.h"
 #include "calendar.h"
 #include "data_vars.h"
 #include "game.h"
