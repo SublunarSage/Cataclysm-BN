@@ -326,12 +326,8 @@ public:
 protected:
     auto assign_invlet_hints() -> void override {
         for (auto* column : get_all_columns()) {
-            for (auto& entry : column->entries) {
-                entry.invlet_hint.reset();
-            }
-            for (auto& entry : column->entries_hidden) {
-                entry.invlet_hint.reset();
-            }
+            for (auto& entry : column->entries) { entry.invlet_hint.reset(); }
+            for (auto& entry : column->entries_hidden) { entry.invlet_hint.reset(); }
         }
 
         auto* const entry = wielded_entry();
@@ -348,7 +344,8 @@ protected:
         auto* const entry = wielded_entry();
         if (entry == nullptr) { return nullptr; }
         // `execute` already ruled out entry letters and picker actions.
-        // Therefore, the resolver checks them again such that the drawn hint and the picked items will always agree.
+        // Therefore, the resolver checks them again such that the drawn hint and the picked items
+        // will always agree.
         const auto keys = reload_ui::resolve_wielded_key(facts_for(*entry)).keys;
         return std::ranges::contains(keys, key) ? entry->any_item() : nullptr;
     }
